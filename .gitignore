@@ -1,0 +1,41 @@
+# Ignore configuration files
+config/Database.php
+database SQL file/exam_system.sql
+ckeditor/
+
+
+# Ignore uploaded files
+uploads/
+
+# Ignore environment configuration files
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Ignore logs and temporary files
+logs/
+tmp/
+
+# Ignore vendor folder (if you are using Composer for dependency management)
+vendor/
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other common files
+*.log
+*.cache
+*.tmp
+
+# Ignore PHPUnit result logs
+phpunit.xml
+phpunit-result.xml
+
+# Ignore Composer PHAR file
+composer.phar
